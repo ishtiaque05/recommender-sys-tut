@@ -30,4 +30,48 @@ class RecommenderMetrics:
             ratings.sort(key=lambda x: x[1], reverse=True)
             topN[int(userID)] = ratings[:n]
          
-        return topN    
+        return topN
+
+    def HitRate(topNPredicted, leftOutPredictions):
+        hits = 0
+        total = 0
+        
+        # For each left-out rating
+        for leftOut in leftOutPredictions:
+            userID = leftOut[0]
+            leftOutMovieID = leftOut[1]
+            # Is it in top 10 for this user
+            hit = False
+            for movieID, predictedRating in topNPredicted[int(userID)]:
+                if(int(leftOutMovieID) == int(movieID)):
+                    hit = True
+                    break
+            if(hit):
+                hits += 1
+            
+            total +=1
+            
+            # Compute Overall Precision
+            return hits/total
+        
+    def CumulativeHitRate(topNPredicted, leftOutPredictions, ratingCutoff=0):
+        hits = 0
+        total = 0
+        
+        # For each left-out rating
+        for userID, leftOutMovieID, actualRating, estimatedRating, _ in leftOutPredictions:
+            # Only look at ability to recommend things the users actually liked
+            if(actualRating >= ratingCutoff):
+                # Is it in the predicted top 10 for this user?
+                hit = False
+                for movieID, predictedRating in topNPredicted[int(userID)]:
+                    if(int(leftOutMovieID) == movieID):
+                        hit = True
+                        break
+                if(hit):
+                    hits += 1
+                total += 1
+        # Compute overall precision
+        return hits/total
+                
+                

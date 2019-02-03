@@ -19,7 +19,7 @@ class RecommenderMetrics:
     def RMSE(predictions):
         return accuracy.rmse(predictions, verbose=False)
     
-    def GetTopN(predictions, n=0, minimumRating=4.0):
+    def GetTopN(predictions, n=10, minimumRating=4.0):
         topN = defaultdict(list)
         
         for userID, movieID, actualRating, estimatedRating, _ in predictions:

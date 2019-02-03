@@ -41,7 +41,8 @@ class MovieLens:
                     movieName = row[1]
                     self.movieID_to_name[movieID] = movieName
                     self.name_to_movieID[movieName] = movieID
-
+                    
+        print(ratingsDataset)            
         return ratingsDataset
         
     def getUserRatings(self, user):

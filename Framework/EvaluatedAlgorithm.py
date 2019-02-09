@@ -6,8 +6,8 @@ Created on Sat Feb  9 13:56:11 2019
 @author: Syed Ishtiaque Ahmad
 """
 
-from RecommenderMetrics import RecommenderMetrics
-from EvaluationData import EvaluationData
+from Framework.RecommenderMetrics import RecommenderMetrics
+from Framework.EvaluationData import EvaluationData
 
 class EvaluatedAlgorithm:
     

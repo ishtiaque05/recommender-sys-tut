@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu May  3 10:22:34 2018
-
 @author: Syed Ishtiaque Ahmad
 """
 from Framework.EvaluationData import EvaluationData
@@ -77,9 +75,3 @@ class Evaluator:
             
             for ratings in recommendations[:10]:
                 print(ml.getMovieName(ratings[0]), ratings[1])
-                
-
-            
-            
-    
-    

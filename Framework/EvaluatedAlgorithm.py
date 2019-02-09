@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Feb  9 13:56:11 2019
 
 @author: Syed Ishtiaque Ahmad
 """

@@ -31,3 +31,38 @@ Birdcage, The (1996) 5
 Carlito's Way (1993) 5
 Wizard of Oz, The (1939) 5
 ========================================================================================================================
+
+(Recommendation Features: Genre, Release date & MiseEnSceneSimilarity)
+Second Run:
+
+We recommend:
+Autumn Tale, An (Conte d'automne) (1998) 4.778855672512645
+Splice (2009) 4.628926485356064
+Mission to Mars (2000) 4.620457166693371
+Felony (2013) 4.619025628660293
+Saw II (2005) 4.594928549301262
+True Crime (1996) 4.588315991604612
+Contagion (2011) 4.523914204324833
+Cube 2: Hypercube (2002) 4.509729284313489
+No One Lives (2012) 4.501102906404861
+Ransom (1996) 4.435239401235966
+
+Using recommender  Random
+
+Building recommendation model...
+Computing recommendations...
+
+We recommend:
+Sleepers (1996) 5
+Beavis and Butt-Head Do America (1996) 5
+Fear and Loathing in Las Vegas (1998) 5
+Happiness (1998) 5
+Summer of Sam (1999) 5
+Bowling for Columbine (2002) 5
+Babe (1995) 5
+Birdcage, The (1996) 5
+Carlito's Way (1993) 5
+Wizard of Oz, The (1939) 5
+
+
+========================================================================================================================

@@ -13,13 +13,14 @@ class MovieLens:
 
     movieID_to_name = {}
     name_to_movieID = {}
-    ratingsPath = '../ml-latest-small/ratings.csv'
-    moviesPath = '../ml-latest-small/movies.csv'
+    ratingsPath = os.getcwd()+'/data/ratings.csv'
+    moviesPath = os.getcwd()+'/data/movies.csv'
     
     def loadMovieLensLatestSmall(self):
-
+        # print("current file rating: {}".format(self.ratingsPath))
         # Look for files relative to the directory we are running from
-        os.chdir(os.path.dirname(sys.argv[0]))
+        # dir_path = os.path.dirname(os.path.realpath(__file__))
+        # os.chdir(os.path.dirname(dir_path))
 
         ratingsDataset = 0
         self.movieID_to_name = {}

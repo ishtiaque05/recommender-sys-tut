@@ -2,8 +2,8 @@
 """
 @author: Syed Ishtiaque Ahmad
 """
-from Framework.EvaluationData import EvaluationData
-from Framework.EvaluatedAlgorithm import EvaluatedAlgorithm
+from EvaluationData import EvaluationData
+from EvaluatedAlgorithm import EvaluatedAlgorithm
 
 class Evaluator:
     

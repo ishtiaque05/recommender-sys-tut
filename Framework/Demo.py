@@ -3,10 +3,10 @@
 @author: Syed Ishtiaque Ahmad
 """
 
-from Framework.MovieLens import MovieLens
+from MovieLens import MovieLens
 from surprise import SVD
 from surprise import NormalPredictor
-from Framework.Evaluator import Evaluator
+from Evaluator import Evaluator
 
 import random
 import numpy as np

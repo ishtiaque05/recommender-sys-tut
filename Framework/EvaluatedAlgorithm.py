@@ -5,8 +5,8 @@
 @author: Syed Ishtiaque Ahmad
 """
 
-from Framework.RecommenderMetrics import RecommenderMetrics
-from Framework.EvaluationData import EvaluationData
+from RecommenderMetrics import RecommenderMetrics
+from EvaluationData import EvaluationData
 
 class EvaluatedAlgorithm:
     

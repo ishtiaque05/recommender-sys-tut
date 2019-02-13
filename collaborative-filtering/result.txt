@@ -1,0 +1,21 @@
+Simple Item Based Collaborative Filtering
+________________________________________________________________________________________________________________________
+
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+
+James Dean Story, The (1957) 10.0
+Get Real (1998) 9.987241120712646
+Kiss of Death (1995) 9.966881877751941
+Set It Off (1996) 9.963732215657119
+How Green Was My Valley (1941) 9.943984081065269
+Amos & Andrew (1993) 9.93973694500253
+My Crazy Life (Mi vida loca) (1993) 9.938290487546041
+Grace of My Heart (1996) 9.926255896645218
+Fanny and Alexander (Fanny och Alexander) (1982) 9.925699671455906
+Wild Reeds (Les roseaux sauvages) (1994) 9.916226404418774
+Edge of Seventeen (1998) 9.913028764691676
+
+========================================================================================================================

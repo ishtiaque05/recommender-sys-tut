@@ -40,3 +40,19 @@ Gravity (2013) 1.8
 Fight Club (1999) 1.8
 
 ========================================================================================================================
+
+Evaluating User Based Collaborative Filtering
+________________________________________________________________________________________________________________________
+
+Loading movie ratings...
+Computing movie popularity ranks so we can measure novelty later...
+Estimating biases using als...
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+HR 0.05514157973174367
+
+========================================================================================================================

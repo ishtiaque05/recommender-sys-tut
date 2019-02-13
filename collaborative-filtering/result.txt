@@ -19,3 +19,24 @@ Wild Reeds (Les roseaux sauvages) (1994) 9.916226404418774
 Edge of Seventeen (1998) 9.913028764691676
 
 ========================================================================================================================
+
+Simple User Based Collaborative Filtering
+________________________________________________________________________________________________________________________
+
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Inception (2010) 3.3
+Star Wars: Episode V - The Empire Strikes Back (1980) 2.4
+Bourne Identity, The (1988) 2.0
+Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000) 2.0
+Dark Knight, The (2008) 2.0
+Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il) (1966) 1.9
+Departed, The (2006) 1.9
+Dark Knight Rises, The (2012) 1.9
+Back to the Future (1985) 1.9
+Gravity (2013) 1.8
+Fight Club (1999) 1.8
+
+========================================================================================================================

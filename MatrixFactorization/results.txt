@@ -1,0 +1,143 @@
+
+SVD VS SVD++
+------------------------------------------------------------------------------------------------------------------------
+Analysis complete.
+Algorithm  RMSE       MAE
+SVD        0.9039     0.6984
+SVD++      0.8943     0.6887
+Random     1.4359     1.1493
+
+Legend:
+RMSE:      Root Mean Squared Error. Lower values mean better accuracy.
+MAE:       Mean Absolute Error. Lower values mean better accuracy.
+
+Using recommender  SVD
+Building recommendation model...
+Computing recommendations...
+
+We recommend:
+Gladiator (1992) 4.520884890007874
+Philadelphia Story, The (1940) 4.420701711947352
+Stand by Me (1986) 4.3959589752178365
+Moon (2009) 4.372613693384055
+Happiness (1998) 4.369493252705134
+American Graffiti (1973) 4.353470600109924
+And Your Mother Too (Y tu mamÃ¡ tambiÃ©n) (2001) 4.349192492630499
+Wallace & Gromit: A Close Shave (1995) 4.3154412154304085
+Band of Brothers (2001) 4.315414828016616
+Seven Samurai (Shichinin no samurai) (1954) 4.311102920673881
+
+Using recommender  SVD++
+Building recommendation model...
+Computing recommendations...
+
+We recommend:
+Lock, Stock & Two Smoking Barrels (1998) 4.60422766627621
+The Imitation Game (2014) 4.457817607681914
+Amadeus (1984) 4.322529285260795
+Indiana Jones and the Last Crusade (1989) 4.289355864317423
+Happiness (1998) 4.260333724293291
+Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001) 4.229511982111834
+Wings of Desire (Himmel Ã¼ber Berlin, Der) (1987) 4.2247114809512345
+Grand Day Out with Wallace and Gromit, A (1989) 4.223352198994354
+Charade (1963) 4.2089531102636775
+Snatch (2000) 4.204477673848874
+Using recommender  Random
+Building recommendation model...
+Computing recommendations...
+We recommend:
+Usual Suspects, The (1995) 5
+Legends of the Fall (1994) 5
+Trainspotting (1996) 5
+Titanic (1997) 5
+Happiness (1998) 5
+Big Daddy (1999) 5
+Spider-Man 2 (2004) 5
+Blade Runner (1982) 5
+Stand by Me (1986) 5
+Indiana Jones and the Last Crusade (1989) 5
+
+------------------------------------------------------------------------------------------------------------------------
+SVD tuned VS SVD untuned
+
+Loading movie ratings...
+Computing movie popularity ranks so we can measure novelty later...
+Searching for best parameters...
+
+Best RMSE score attained:  0.8990315328082491
+{'n_epochs': 20, 'lr_all': 0.005, 'n_factors': 50}
+
+Estimating biases using als...
+Computing the cosine similarity matrix...
+Done computing similarity matrix.
+Evaluating  SVD - Tuned ...
+Evaluating accuracy...
+Analysis complete.
+Evaluating  SVD - Untuned ...
+Evaluating accuracy...
+Analysis complete.
+Evaluating  Random ...
+Evaluating accuracy...
+Analysis complete.
+
+Algorithm  RMSE       MAE
+SVD - Tuned 0.9002     0.6958
+SVD - Untuned 0.9033     0.6992
+Random     1.4410     1.1517
+
+Legend:
+RMSE:      Root Mean Squared Error. Lower values mean better accuracy.
+MAE:       Mean Absolute Error. Lower values mean better accuracy.
+
+Using recommender  SVD - Tuned
+Building recommendation model...
+Computing recommendations...
+
+We recommend:
+
+Lord of the Rings: The Return of the King, The (2003) 4.3749711561449605
+Modern Times (1936) 4.354671890930051
+Lord of the Rings: The Two Towers, The (2002) 4.322213807122597
+Lord of the Rings: The Fellowship of the Ring, The (2001) 4.298847488069958
+Sunset Blvd. (a.k.a. Sunset Boulevard) (1950) 4.266880572421344
+Lawrence of Arabia (1962) 4.24707583433022
+Departed, The (2006) 4.245027300209429
+Raging Bull (1980) 4.242583287668631
+Matrix, The (1999) 4.23960872147442
+Singin' in the Rain (1952) 4.22019118638355
+
+Using recommender  SVD - Untuned
+Building recommendation model...
+Computing recommendations...
+
+We recommend:
+
+Sixth Sense, The (1999) 4.379700721896723
+Casablanca (1942) 4.377109263621187
+Hamlet (1996) 4.368114400612328
+Monty Python and the Holy Grail (1975) 4.345114682811994
+When We Were Kings (1996) 4.336970835757953
+It Happened One Night (1934) 4.308824122270182
+Bridge on the River Kwai, The (1957) 4.288632945858667
+Smoke (1995) 4.286330621300017
+Big Night (1996) 4.281489145712831
+Seven Samurai (Shichinin no samurai) (1954) 4.264059603135206
+
+Using recommender  Random
+Building recommendation model...
+Computing recommendations...
+
+We recommend:
+
+Antz (1998) 5
+Seven (a.k.a. Se7en) (1995) 5
+Clerks (1994) 5
+Wolf (1994) 5
+Much Ado About Nothing (1993) 5
+Sirens (1994) 5
+Twister (1996) 5
+Fried Green Tomatoes (1991) 5
+Fight Club (1999) 5
+Encino Man (1992) 5
+
+------------------------------------------------------------------------------------------------------------------------
